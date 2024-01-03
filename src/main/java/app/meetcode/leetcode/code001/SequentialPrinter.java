@@ -42,6 +42,10 @@ public class SequentialPrinter {
 
     class EvenPrinter implements Runnable {
 
+        public void test() {
+            System.out.println();
+        }
+
         @Override
         public void run() {
             while (number <= MAX_NUMBER) {
